@@ -1,0 +1,216 @@
+﻿<html>
+<head>
+    <title>home</title>
+    <meta charset="utf-8">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="licss/licss.css" />
+    <link rel="stylesheet" type="text/css" href="licss/home.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:mintcream;"onscroll="closeNav()">
+
+    <nav class="navbar navbar-inverse w3-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand w3-btn" href="#"><font color="white"><img src="/minipro/mt1.gif" style="height:40" width="40" >Welcome to Maintenance<sup>Pro</sup></font></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="/minipro/page1.html">Service</a></li>
+                <li><a href="/minipro/page2.html">Contact Us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="openbtn" onclick="openNav()"><span class="glyphicon glyphicon-user"></span></a></li>
+                <li><a href="/minipro/logout.php"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#" class="w3-btn footer" onclick="loseNav()">User Profile</a><br /><br />
+        <a href="#">Name<?php echo"[$uname]"?></a><br /><br />
+        <a href="#">E-mail</a><br /><br />
+        <a href="#">Contact</a>
+    </div>
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "50%";//to change the width of sidebar change 500px to more
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+
+    <style>
+        .footer {
+            background-color: black;
+            text-align: center;
+            font-face: Consolas;
+            font-size: 20px;
+            text-decoration-color: black;
+            color: white;
+        }
+    </style>
+
+    <div class="home"onclick="closeNav()">
+        <div class="bghome"><br><br /><br><br /><br><br /><br><br />
+        <div style="height:25vh; background: rgba(0, 0, 0, 0.6);padding-top:10px;">
+            <center><h1 style="font-size:65px;">
+                <img src="/minipro/mt1.gif" style="height:70" width="70" /> Maintenance<sup>Pro </sup><img src="/minipro/mt1.gif" style="height:70" width="70" />
+                </h1>
+                <h3 class="w3-animate-fading" style="color:white;">We Will Decorate Your Tomorrow</h3>
+            </center>
+        </div>
+        </div>
+        
+    </div>
+    
+
+
+    <style>
+        .jumbotron {
+            color: brown;
+        }
+
+        .div {
+            background-color: black;
+            text-align: center;
+            font-face: Consolas;
+            font-size: 20px;
+            text-decoration-color: black;
+            color: white;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .zoom {
+            padding: 10px;
+            transition: transform .5s;
+            margin: 0 0;
+        }
+
+            .zoom:hover {
+                -ms-transform: scale(0.5); /* IE 9 */
+                -webkit-transform: scale(0.5); /* Safari 3-8 */
+                transform: scale(1.1);
+            }
+
+        p
+        {
+            color:black;
+            padding:5px 50px 5px 50px;
+        }
+    </style>
+    <hr color="black" width="100%" style="height:30" onclick="closeNav()"/>
+    <hr color="black" width="100%" style="height:10" onclick="closeNav()"/>
+
+    <div class="w3-animate-fading"onclick="closeNav()"><center><h1><font face="monotypecursive" size="32" color="black" class="active">What We Do</font></h1></center></div>
+    
+    
+    
+    <div class="row"onclick="closeNav()">
+                    <div class="column">
+                        <div class="card">
+                        <p>
+                        "<b>The maintenence<sup>pro</sup></b> refers to reinnovate your ordinary home into a extraordinary home,providing the sufficient maintenence and desired
+                            getup to your dream home at a<br>cheap cost.<b> maintenence<sup>pro</sup></b> turn your ideas into the reality.
+                            <b>maintenence<sup>pro</sup></b> always focus on your imagination to make it happen. we care of your homes and keeps it  up-to-date according to your choice.
+                            <b>maintenence<sup>pro</sup></b> create a bond with your home and make the things comfortable to you in your home. <b>maintenence<sup>pro</sup></b> wishes
+                            you won't forget those moments spent in the homes and we wish to have a glance on our tasks bellowed"
+                        </p>
+                         </div>
+                    </div>
+
+
+        
+                    <div class="column">
+                    <div class="card">
+                        <img src="\minipro\Mgif1.gif" height="200" width="250" vspace="5" hspace="4" class="zoom" align="right" /><br /><br />
+                        <ul>
+                            <li>
+                                <p>
+                                    "<b>The maintenence<sup>pro</sup></b> Paints are coatings of fluid materials which are applied as a final finish to surfaces like walls, ceiling, wood and metal works.
+
+                                    Painting is done to protect the surface from the effects of weathering, to prevent wood from decay and metal from corrosion, to provide a decorative finish and to obtain a clean,
+                                    hygienic and healthy living atmosphere. with same perception, <b>The maintenence<sup> pro</sup></b> offer the same technique of the painting and provides the best ever painting and the perfect getup to your architecture .
+                                </p><br />
+                            </li>
+                        </ul>
+                    </div></div>
+
+                      <div class="column">
+                          <div class="card">
+                              <img src="\minipro\Mgif2.gif" height="200" width="250" vspace="5" class="zoom" align="left" />
+                              <ul>
+                                  <li>
+                                      <p>
+                                          <br><br>
+                                          "<b>The maintenence<sup>pro</sup></b> Designs your ideas into a dream building and it reflects your imagination on the concept architecture. we provide the best ever conceptof architecture
+                                          our designer turn you idea on structure and we make it happen.Buildings are sited and then designed for best passive solar utilization,
+                                          as well as preservation of desirable natural conditions (heritage trees, rock outcroppings, waterway, etc.) and view opportunities.
+                                          It is the expression of respect and a commitment to the natural environment through enhancement and protection of ecologically important features.<br><br>
+                                      </p>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+<
+
+
+                          <div class="column">
+                           <div class="card">
+                             <img src="\minipro\Mgif5.gif" height="200" width="250" vspace="5" hspace="4" class="zoom"align="right" /><br />
+                              <ul>
+                                  <li>
+                                      <p>
+                                          "<b>The maintenence<sup>pro</sup></b> refers to reinnovate your ordinary home into a extraordinary home,providing the sufficient maintenence and desired
+                                          getup to your dream home at a cheap cost.<b> maintenence<sup>pro</sup></b> turn your ideas into the reality.
+                                          <b>maintenence<sup>pro</sup></b> always focus on your imagination to make it happen. we care of your homes and keeps it  up-to-date according to your choice.
+                                          <b>maintenence<sup>pro</sup></b> create a bond with your home and make the things comfortable to you in your home. <b>maintenence<sup>pro</sup></b> wishes
+                                          you won't forget those moments spent in the homes and we wish to have a glance on our tasks bellowed"<br><br><br>
+                                      </p>
+                                  </li>
+                              </ul>
+                           </div>
+                          </div>
+
+                           <div class="column">
+                            <div class="card">
+                             <img src="\minipro\Mgif3.gif" height="200" width="250" vspace="5" hspace="4" class="zoom" align="left" /><br />
+                              <ul>
+                                  <li>
+                                      <p>
+                                          "<b>The maintenence<sup>pro</sup></b> refers to reinnovate your ordinary home into a extraordinary home,providing the sufficient maintenence and desired
+                                          getup to your dream home at a<br>cheap cost.<b> maintenence<sup>pro</sup></b> turn your ideas into the reality.
+                                          <b>maintenence<sup>pro</sup></b> always focus on your imagination to make it happen. we care of your homes and keeps it  up-to-date according to your choice.
+                                          <b>maintenence<sup>pro</sup></b> create a bond with your home and make the things comfortable to you in your home. <b>maintenence<sup>pro</sup></b> wishes
+                                          you won't forget those moments spent in the homes and we wish to have a glance on our tasks bellowed"
+                                      </p>
+                                  </li>
+                              </ul>
+                           </div>
+                          </div>
+    </div>
+
+
+
+        <div class="footer">
+            all fraud rights reserved @Maintenance<sup>pro</sup> ISO 9001-2002
+        </div>
+</body>
+</html>
